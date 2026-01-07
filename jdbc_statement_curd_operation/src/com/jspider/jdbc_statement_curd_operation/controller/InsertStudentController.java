@@ -18,7 +18,7 @@ public class InsertStudentController {
 			//step-2 create connection with mysql db
 			String url = "jdbc:mysql://localhost:3306/jdbc-a10";
 			String username = "root";
-			String password = "Aman@124421";
+			String password = "root";
 			
 		    connection =	DriverManager.getConnection(url, username, password);
 			
